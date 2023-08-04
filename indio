@@ -1,0 +1,39 @@
+programa
+{
+	inteiro opcao
+	funcao inicio()
+	{
+		indio_mistico()
+	}
+	
+	funcao indio_mistico()
+	{
+		escreva("*Velho índio sentado, aura mística e fogueira acesa*")
+		escreva("\n----- Tela de Pergunta -----\n")
+		escreva("1 - Conversar com o Velho índio\n")
+		escreva("2 - Ignorar.\n")
+		escreva("----------------------------\n")
+		escreva("Escolha uma opção: ")
+		
+		leia(opcao)
+		
+		se (opcao == 1)
+		{
+			escreva("*Velho olha nos olhos de Mortimer Grover*\n")
+			escreva("Espírito da Serpente: Vejo um futuro incandescente à sua frente.\n")
+			escreva("Enfrentará duelos perigosos, morte espreita em cada esquina.\n")
+			escreva("Fama de destemido pistoleiro ecoará no Oeste Selvagem.\n")
+			escreva("Tome cuidado, fama atrai inimigos cruéis e sedentos.\n")
+			escreva("Seu caminho entrelaçará com lendário Louco Clay.\n")
+			escreva("Coragem e determinação o guiarão, sabedoria e compaixão lembre-se.\n")
+			escreva("O Oeste Selvagem é lugar de honra, respeito lado a lado.\n")
+			escreva("Caminhe com humildade, Mortimer, escute sussurros da natureza.\n")
+			escreva("Seu destino em suas mãos, decisão é sua.\n")
+		}
+		senao
+		{
+			escreva("Mortimer segue seu caminho, deixando para trás o índio.\n")
+			escreva("Palavras do Espírito da Serpente ecoam, moldando seu destino.\n")
+		}
+	}
+}
